@@ -478,7 +478,6 @@ void write_function(vm_command cmd, FILE *fp)
     }
 }
 
-// おそらくここがおかしい
 /* Write return command */
 void write_return(vm_command cmd, FILE *fp)
 {
